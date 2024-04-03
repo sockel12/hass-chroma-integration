@@ -1,9 +1,9 @@
 {
-    "domain": "hello_world",
-    "name": "Hello World",
+    "domain": "hass_chroma_integration",
+    "name": "HASS Chroma Integration",
     "codeowners": [],
     "dependencies": [],
-    "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/hello_world/",
+    "documentation": "",
     "iot_class": "local_polling",
     "requirements": [],
     "version": "0.1.0"
