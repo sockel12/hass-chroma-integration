@@ -24,12 +24,12 @@ _LOGGER = logging.getLogger(__name__)
 DOMAIN = "hello_world"
 
 def a(event: Event) -> Coroutine[Any, Any, None] | None:
-    _LOGGER.debug(event.data)
+    _LOGGER.debug(event)
 
 
 def setup(hass: HomeAssistant, config: ConfigType) -> bool:
     """Set up a skeleton component."""
-    
+
     # States are in the format DOMAIN.OBJECT_ID.
     hass.states.set('hello_world.Hello_World', 'Works!')
 
