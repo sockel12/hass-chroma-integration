@@ -30,6 +30,8 @@ def a(event: Event) -> Coroutine[Any, Any, None] | None:
 def setup(hass: HomeAssistant, config: ConfigType) -> bool:
     """Set up a skeleton component."""
 
+    _LOGGER.info("Hello World started!")
+
     # States are in the format DOMAIN.OBJECT_ID.
     hass.states.set('hello_world.Hello_World', 'Works!')
 
