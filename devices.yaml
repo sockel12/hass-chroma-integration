@@ -1,5 +1,5 @@
 esphome:
-  name: "schwanz"
+  name: "awesome"
   
 sensor:
   - platform: template
