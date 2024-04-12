@@ -1,0 +1,14 @@
+esphome:
+  name: "schwanz"
+  
+sensor:
+  - platform: template
+    name: "Template Sensor"
+    lambda: |-
+      return 0;
+    update_interval: 60s
+  
+host:
+
+# esp32:
+#   board: "nodemcu-32s"
