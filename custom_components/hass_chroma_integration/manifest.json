@@ -1,8 +1,8 @@
 {
     "domain": "hass_chroma_integration",
     "name": "HASS Chroma Integration",
-    "codeowners": [],
-    "dependencies": [],
+    "codeowners": ["Niklas Haas", "Benjamin Appel"],
+    "dependencies": ["logbook"],
     "documentation": "",
     "iot_class": "local_polling",
     "requirements": [],
